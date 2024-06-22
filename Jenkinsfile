@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git branch: 'master', url: "https://github.com/jfrog/project-examples.git"
+                git branch: 'main', url: "https://github.com/GaneshSundar96/docker-artifactory.git"
             }
         }
 
