@@ -13,7 +13,7 @@ pipeline {
 13            steps {
 14                script {
 15                    // Building the Docker image
-16                    def customImage = docker.build("${DOCKER_IMAGE}:${IMAGE_TAG}")
+16                    customImage = docker.build("${DOCKER_IMAGE}:${IMAGE_TAG}")
 17                }
 18            }
 19        }
