@@ -13,9 +13,9 @@ pipeline {
 13            steps {
 14                script {
 15                    // Building the Docker image
-                      def dockerfile = 'resources/Dockerfile'
+                      
 16                    def customImage = docker.build("${DOCKER_IMAGE}:${IMAGE_TAG}")
-17                }
+17                    }
 18            }
 19        }
 20        stage('Push to Artifactory') {
