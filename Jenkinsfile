@@ -4,7 +4,7 @@ pipeline {
 4        // Variables
 5        DOCKER_IMAGE = ‘busy box’
 6        IMAGE_TAG = 'latest'
-7        ARTIFACTORY_URL = 'http://support-team-ganeshsk-docker-nginx-test.jfrog.farm’
+7        ARTIFACTORY_URL = "http://support-team-ganeshsk-docker-nginx-test.jfrog.farm"
 8        ARTIFACTORY_DOCKER_REPO = 'docker-local.support-team-ganeshsk-docker-nginx-test.jfrog.farm'
 9        REGISTRY_CREDENTIALS_ID = 'Jfrog'
 10    }
